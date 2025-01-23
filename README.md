@@ -15,6 +15,7 @@ Visualization: Creating visual insights into the dataset, including class distri
 This analysis aims to provide insights into key predictors of CHD and demonstrates a simple yet powerful approach to binary classification problems in healthcare.
 
 **How to Run**:
+
 To run the program clone the repository (https://github.com/rubino1996/HeartDisease_LogisticRegression.git) and run main.py file. The repository includes two additional files, correlations.py and data_creation.py, which are not directly used within the main.py file but serve supporting purposes:
 
 correlations.py: This script was used to identify features from the original dataset with a positive correlation to the output. All features except education showed positive correlation with the target variable (TenYearCHD). As a result, education was excluded from the list of estimators during the training process.
