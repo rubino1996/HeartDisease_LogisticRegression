@@ -13,3 +13,8 @@ Model Evaluation: Using confusion matrices and accuracy scores to evaluate model
 Visualization: Creating visual insights into the dataset, including class distributions and model results.
 
 This analysis aims to provide insights into key predictors of CHD and demonstrates a simple yet powerful approach to binary classification problems in healthcare.
+
+**How to Run**:
+To run the program clone the repository and run main.py file. The correlations.py file and data_creation.py file are extra files that are not used in the main.py file. However, the correlations.py file was used to help identify which features from the original dataset had positive correlation with the output, in this case all of the features had positive value except education so education was not included in the evaluation for "estimators". In addition, for testing our model, a test_data was created using the file data_creation.py to test our model. As mentioned these are extra files that you don't need to run the main.py file but you do need the test_data.csv.
+
+
