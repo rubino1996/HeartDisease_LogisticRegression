@@ -10,7 +10,7 @@ Model Development: Building a logistic regression model to assess the relationsh
 
 Model Evaluation: Using confusion matrices and accuracy scores to evaluate model performance on both training and test datasets.
 
-Visualization: Creating visual insights into the dataset, including class distributions and model results.
+Visualization: Creating visual insights into the dataset.
 
 This analysis evaluates the predictors of coronary heart disease (CHD) and demonstrates the effectiveness of logistic regression for binary classification in healthcare. The model achieved 85.5% accuracy on the training set and 83.7% accuracy on the test set, as evidenced by the confusion matrices. While the model performs well, its accuracy can be further improved with additional training data, feature engineering, or advanced modeling techniques such as regularization or ensemble methods. These enhancements can refine predictions and provide even greater insights for risk assessment in real-world healthcare applications.
 
