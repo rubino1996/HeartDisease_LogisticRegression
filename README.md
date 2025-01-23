@@ -1,5 +1,5 @@
 # HeartDisease_LogisticRegression
-This project uses logistic regression to analyze the Framingham Heart Study dataset, a longitudinal study that tracks cardiovascular disease risk factors. 
+This project uses logistic regression to analyze the Framingham Heart Study dataset, a longitudinal study that tracks cardiovascular disease risk factors. The dataset was obtained from Kaggle (https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression)
 The goal is to predict the 10-year risk of coronary heart disease (CHD) using various health and lifestyle indicators, such as age, gender, smoking habits, blood pressure, and cholesterol levels.
 
 **The project involves:**
@@ -12,7 +12,7 @@ Model Evaluation: Using confusion matrices and accuracy scores to evaluate model
 
 Visualization: Creating visual insights into the dataset, including class distributions and model results.
 
-This analysis aims to provide insights into key predictors of CHD and demonstrates a simple yet powerful approach to binary classification problems in healthcare.
+This analysis evaluates the predictors of coronary heart disease (CHD) and demonstrates the effectiveness of logistic regression for binary classification in healthcare. The model achieved 85.5% accuracy on the training set and 83.7% accuracy on the test set, as evidenced by the confusion matrices. While the model performs well, its accuracy can be further improved with additional training data, feature engineering, or advanced modeling techniques such as regularization or ensemble methods. These enhancements can refine predictions and provide even greater insights for risk assessment in real-world healthcare applications.
 
 **How to Run**:
 
