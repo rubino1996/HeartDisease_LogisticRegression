@@ -15,6 +15,11 @@ Visualization: Creating visual insights into the dataset, including class distri
 This analysis aims to provide insights into key predictors of CHD and demonstrates a simple yet powerful approach to binary classification problems in healthcare.
 
 **How to Run**:
-To run the program clone the repository and run main.py file. The correlations.py file and data_creation.py file are extra files that are not used in the main.py file. However, the correlations.py file was used to help identify which features from the original dataset had positive correlation with the output, in this case all of the features had positive value except education so education was not included in the evaluation for "estimators". In addition, for testing our model, a test_data was created using the file data_creation.py to test our model. As mentioned these are extra files that you don't need to run the main.py file but you do need the test_data.csv.
+To run the program clone the repository (https://github.com/rubino1996/HeartDisease_LogisticRegression.git) and run main.py file. The repository includes two additional files, correlations.py and data_creation.py, which are not directly used within the main.py file but serve supporting purposes:
 
+correlations.py: This script was used to identify features from the original dataset with a positive correlation to the output. All features except education showed positive correlation with the target variable (TenYearCHD). As a result, education was excluded from the list of estimators during the training process.
+
+data_creation.py: This script was used to generate a synthetic dataset (test_data.csv) for testing the logistic regression model.
+
+While you don't need to execute correlations.py or data_creation.py to run the program, you will need the test_data.csv file to evaluate the model on test data. 
 
